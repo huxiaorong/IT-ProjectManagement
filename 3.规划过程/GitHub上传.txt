@@ -1,0 +1,8 @@
+git clone https······（仓库地址）
+cd web2（仓库名）
+将要上传的文件移动到克隆的仓库中
+git add work（移动的文件名）/
+git add 任务所需小图（移动的文件名）/
+git commit - m "message(随便取的名)"
+git push
+完成

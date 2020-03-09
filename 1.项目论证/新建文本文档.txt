@@ -1,0 +1,108 @@
+ Toast.makeText(MainActivity.this," 请输入六位",Toast.LENGTH_LONG);
+
+//        EditText user=(EditText) findViewById(R.id.username);
+//        user.setFilters(new InputFilter[]{new InputFilter() {
+//            @Override
+//            public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+//                if(getTextLength(dest.toString())+getTextLength(source.toString())>16
+//                   || getTextLength(dest.toString())+getTextLength(source.toString())<6){
+//                    Toast.makeText(MainActivity.this," 请输入六位",Toast.LENGTH_LONG);
+//
+//                }else{
+//                    Toast.makeText(MainActivity.this," ok",Toast.LENGTH_LONG);
+//                }
+//                return null;
+//            }
+//        }});
+//
+
+//
+//        user.addTextChangedListener(new TextWatcher() {
+//            @Override
+//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+////                int newsize=s.length();
+////                if(newsize>16){
+////                    Toast.makeText(MainActivity.this," 请输入",Toast.LENGTH_LONG);
+////                }
+//            }
+//
+//            @Override
+//            public void onTextChanged(CharSequence s, int start, int before, int count) {
+////                int newsize1=s.length();
+////                if(newsize1>16){
+////                    Toast.makeText(MainActivity.this," 六位",Toast.LENGTH_LONG);
+////                }
+//            }
+//
+//            @Override
+//            public void afterTextChanged(Editable s) {
+//
+//                if(getTextLength(s.toString())>16
+//                   || getTextLength(s.toString())<6){
+//                    Toast.makeText(MainActivity.this," 请输入六位",Toast.LENGTH_LONG);
+//
+//                }else{
+//                    Toast.makeText(MainActivity.this," ok",Toast.LENGTH_LONG);
+//                }
+//
+//
+
+//
+//
+//                int newsize2=s.length();
+//                if(newsize2>6 && newsize2<16){
+//                    Toast.makeText(MainActivity.this," 注册成功",Toast.LENGTH_LONG);
+//                }
+//                else{
+//                    Toast.makeText(MainActivity.this," 请输入六位",Toast.LENGTH_LONG);
+//                }
+//
+//            }
+//        });
+//
+
+//                if(username.length())
+//
+//                Toast.makeText(MainActivity.this," 请输入六位",Toast.LENGTH_LONG);
+//
+
+
+
+
+
+
+
+
+//        submit.setOnTouchListener(new View.OnTouchListener(){
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event){
+//                Log.e("message","你touch了确定按钮");
+//                return true;
+//            }
+//        });
+//
+//        submit.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.e("message","你点击了确定按钮");
+//            }
+//        });
+//
+//        submit.setOnLongClickListener(new View.OnLongClickListener() {
+//            @Override
+//            public boolean onLongClick(View v) {
+//                Log.e("message","你点击了onlongclick按钮");
+//                return false;
+//            }
+//        });
+//
+//        Button cancel=(Button)findViewById(R.id.btn_cancel);
+//        cancel.setText("请点击取消");
+
+//        TextView user=new TextView(this);
+//        user.setText("world");
+//        setContentView(user);
+
+
+
+
